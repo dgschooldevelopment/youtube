@@ -1,0 +1,62 @@
+.navBar{
+    height: 70px;
+    width: 100%;
+    background-color: #0f0f0f;
+    color:white;
+   
+    display:flex;
+   gap:20px;
+   align-items: center;
+
+}
+
+.logo{
+    color: white;
+    fill:white;
+   
+    width: 100px;
+}
+
+.searchIcon{
+    height: 40px;
+    width: 50px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #737272c9;
+    font-size:20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mic{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #737272c9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBar{
+    display: flex;
+    height: 40px;
+    width:45%;
+    margin-left: 200px;
+}
+
+.searchBar input{
+    width: 90%;
+    background-color: #0f0f0fdf;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.622);
+    color: white;
+    border-radius:20px 0% 0% 20px;
+    padding-left: 20px;
+}
+
+.ri-menu-line{
+    font-size: 30px;
+}
